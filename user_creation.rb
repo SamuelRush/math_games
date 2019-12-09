@@ -57,10 +57,8 @@ message = ""
 
   newScore.each_with_index do |component, index|
     if index % 2 == 0
-      # puts "#{component} EVEN #{index}"
       message = message + "#{component}: "
     elsif
-      # puts "#{component} ODD #{index}"
       message = message + "#{component}/3. "
     end
   end
